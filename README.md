@@ -1,1 +1,1 @@
-This is a python Course 
+Day 1 : Basics of Variables and Data types 
