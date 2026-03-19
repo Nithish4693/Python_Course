@@ -1,243 +1,356 @@
-Python Mastery Roadmap (Beginner → Advanced)
-Stage 1 — Programming Foundations (Absolute Beginner)
+# 🐍 Python Mastery Roadmap (Beginner → Advanced)
 
-Goal: Understand how programming works.
+---
 
-Core Concepts
+## 🚀 Stage 1 — Programming Foundations (Absolute Beginner)
 
-What is programming
+**Goal:** Understand how programming works.
 
-Python installation
+### 🔹 Core Concepts
 
-Running Python scripts
+* What is programming
+* Python installation
+* Running Python scripts
+* Python syntax
+* Variables
+* Data types
 
-Python syntax
+---
 
-Variables
+### 📘 Topics
 
-Data types
+#### 1. Basic Syntax
 
-Topics
+```python
+print("Hello World")  # print function
+# This is a comment
+```
 
-1. Basic Syntax
+* Indentation matters in Python
 
-print()
+---
 
-comments
+#### 2. Variables
 
-indentation
-
-2. Variables
-
+```python
 name = "John"
 age = 20
+```
 
-3. Data Types
+---
 
-int
+#### 3. Data Types
 
-float
+```python
+age = 25          # int
+price = 19.5      # float
+name = "Alice"    # string
+is_active = True  # boolean
+```
 
-string
+---
 
-boolean
+#### 4. Type Conversion
 
-age = 25
-price = 19.5
-name = "Alice"
-is_active = True
+```python
+int("10")
+float("10.5")
+str(100)
+```
 
-4. Type Conversion
+---
 
-int()
-float()
-str()
+#### 5. User Input
 
-5. Input from user
+```python
+name = input("Enter your name: ")
+```
 
-name = input("Enter your name:")
-Practice
+---
 
-Build a simple calculator
+### 🧠 Practice
 
-User input program
+* Simple calculator
+* User input program
+* Temperature converter
 
-Temperature converter
+---
 
-Mini Project
+### 💻 Mini Project
 
-Student Information System
+**Student Information System**
 
-Stage 2 — Control Flow
+---
 
-Goal: Teach program decision making.
+## 🔄 Stage 2 — Control Flow
 
-Topics
+**Goal:** Teach program decision making.
 
-1. Conditional Statements
+---
 
-if
-elif
-else
+### 📘 Topics
 
-Example
+#### 1. Conditional Statements
 
+```python
 age = 18
 
 if age >= 18:
     print("Adult")
 else:
     print("Minor")
+```
 
-2. Loops
+---
 
-For Loop
+#### 2. Loops
 
+**For Loop**
+
+```python
 for i in range(5):
     print(i)
+```
 
-While Loop
+**While Loop**
 
+```python
 while condition:
+    pass
+```
 
-3. Loop Controls
+---
 
-break
+#### 3. Loop Controls
 
-continue
+* break
+* continue
+* pass
 
-pass
+---
 
-Practice
+### 🧠 Practice
 
-Number guessing game
+* Number guessing game
+* Multiplication table generator
+* Even / odd checker
 
-Multiplication table generator
+---
 
-Even / odd checker
+### 💻 Mini Project
 
-Mini Project
+**ATM Simulation**
 
-ATM simulation
+---
 
-Stage 3 — Data Structures
+## 📦 Stage 3 — Data Structures
 
-Goal: Teach how Python stores and manages data.
+**Goal:** Learn how Python stores and manages data.
 
-Topics
-1 Lists
-numbers = [1,2,3,4]
+---
 
-Important methods
+### 📘 Topics
 
-append()
-extend()
-insert()
-pop()
+#### 1. Lists
 
-remove()
+```python
+numbers = [1, 2, 3, 4]
 
-sort()
+numbers.append(5)
+numbers.extend([6, 7])
+numbers.insert(1, 10)
+numbers.pop()
+numbers.remove(3)
+numbers.sort()
+```
 
-2 Tuples
-point = (10,20)
-3 Sets
-unique_numbers = {1,2,3}
-4 Dictionaries
+---
+
+#### 2. Tuples
+
+```python
+point = (10, 20)
+```
+
+---
+
+#### 3. Sets
+
+```python
+unique_numbers = {1, 2, 3}
+```
+
+---
+
+#### 4. Dictionaries
+
+```python
 student = {
-"name": "John",
-"age": 20
+    "name": "John",
+    "age": 20
 }
-Iteration
-for key,value in student.items():
-Practice
 
-Student record system
+for key, value in student.items():
+    print(key, value)
+```
 
-Contact list
+---
 
-Shopping cart
+### 🧠 Practice
 
-Mini Project
+* Student record system
+* Contact list
+* Shopping cart
 
-Library Management System
+---
 
-Stage 4 — Functions & Modular Programming
+### 💻 Mini Project
 
-Goal: Teach code reusability.
+**Library Management System**
 
-Topics
-Functions
+---
+
+## 🧩 Stage 4 — Functions & Modular Programming
+
+**Goal:** Learn code reusability.
+
+---
+
+### 📘 Topics
+
+#### Functions
+
+```python
 def greet(name):
     return "Hello " + name
-Function Types
+```
 
-arguments
+---
 
-keyword arguments
+#### Function Types
 
-default parameters
+* Positional arguments
+* Keyword arguments
+* Default parameters
+* *args
+* **kwargs
 
-*args
+---
 
-**kwargs
+#### Lambda Functions
 
-Lambda Functions
-square = lambda x: x*x
-Recursion
+```python
+square = lambda x: x * x
+```
+
+---
+
+#### Recursion
+
+```python
 def factorial(n):
-Modules
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+```
 
-import
+---
 
-from import
+#### Modules
 
-Example
-
+```python
+import math
 from math import sqrt
-Practice
+```
 
-Prime number checker
+---
 
-Password generator
+### 🧠 Practice
 
-Fibonacci calculator
+* Prime number checker
+* Password generator
+* Fibonacci calculator
 
-Mini Project
+---
 
-Command Line To-Do List
+### 💻 Mini Project
 
-Stage 5 — Object Oriented Programming
+**Command Line To-Do List**
 
-Goal: Write scalable software.
+---
 
-Topics
-Classes
+## 🏗️ Stage 5 — Object-Oriented Programming (OOP)
+
+**Goal:** Write scalable and maintainable software.
+
+---
+
+### 📘 Topics
+
+#### Classes & Objects
+
+```python
 class Student:
-Objects
-s1 = Student()
-Concepts
+    def __init__(self, name):
+        self.name = name
 
-Encapsulation
+s1 = Student("John")
+```
 
-Inheritance
+---
 
-Polymorphism
+#### OOP Concepts
 
-Abstraction
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
 
-Magic Methods
+---
+
+#### Magic Methods
+
+```python
 __init__()
 __str__()
 __len__()
-Dataclasses
+```
+
+---
+
+#### Dataclasses
+
+```python
 from dataclasses import dataclass
-Practice
 
-Bank account system
+@dataclass
+class Student:
+    name: str
+    age: int
+```
 
-School management
+---
 
-Mini Project
+### 🧠 Practice
 
-E-Commerce System
+* Bank account system
+* School management system
+
+---
+
+### 💻 Mini Project
+
+**E-Commerce System**
+
+---
+
+## 🎯 Final Outcome
+
+By completing this roadmap, you will be able to:
+
+* Build real-world Python applications
+* Understand backend systems
+* Move into frameworks like FastAPI and Django
+* Start AI/ML or Backend Engineering
+
+---

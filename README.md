@@ -7,3 +7,5 @@ Day 3 : Control flow and Loops
 Day 4 : Problems Practise in all topics
 
 Day 5 : Data Structure - List Concept
+
+Day- 6 : Data Structure - Tuple Concept , Set Concept , Dict Concept
