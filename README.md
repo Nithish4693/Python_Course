@@ -9,3 +9,5 @@ Day 4 : Problems Practise in all topics
 Day 5 : Data Structure - List Concept
 
 Day- 6 : Data Structure - Tuple Concept , Set Concept , Dict Concept
+
+Day- 7 : file handling
